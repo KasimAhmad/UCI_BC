@@ -1,5 +1,6 @@
 
-** After grading edit explore option to protected sheet to preserve formulas/data
+** After grading, explore option to protected sheet to preserve formulas/data
+*** Delete all useless commits
 
 WIP INSERT INSTRUCTIONS/PERSONAL OUTCOMES HERE - GET FAMILIAR WITH MD SYNTAX
 
