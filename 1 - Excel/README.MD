@@ -1,3 +1,6 @@
+
+** After grading edit explore option to protected sheet to preserve formulas/data
+
 WIP INSERT INSTRUCTIONS/PERSONAL OUTCOMES HERE - GET FAMILIAR WITH MD SYNTAX
 
 OUTCOMES - PERSONAL LEARNING EXPERIENCE FROM LESSON
