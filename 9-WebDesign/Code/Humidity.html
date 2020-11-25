@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+<head>
+    <meta charset = "UTF 8">
+    <title>Humidity</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
+    crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" 
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <div class="row">
+            <div class="col col-6 homebtn">
+                <a href="index.html">Latitude</a>
+            </div>
+        <div class="col col-6 menubuttons divtop">
+        
+        <nav class="navbar navbar-expand-md navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="Max-Temperature.html">Max Temperature</a>
+                    <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="Wind-Speed.html">Wind Speed</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        </div>
+        </div>
+    </div>
+<div class="container">
+    <br>
+    <div class="row">
+        <div class= "col col-12 col-md 8 divbdy">
+            <br>
+            <h1>Humidity</h1>
+            <hr>
+            <a href="Humidity.html"><img src="../Resources/Fig2.png" alt="Latitude vs. Humidity"></a>
+            <p>
+                There is no correlation between humidity and latitude. 
+                Humidity percentage is random at all latitudes.
+            </p>
+            <hr>
+        </div>
+        <div class="col col-12 col-md-4 divbdy">
+            <br>
+            <h2>Visualizations</h2>
+            <hr>
+            <div class="row">
+                <div class="col col-3 col-md-6">
+                    <a href="Max-Temperature.html"><img src="../Resources/Fig1.png" alt="Latitude vs. Temperature"></a>
+                </div>
+                <div class="col col-3 col-md-6">
+                    <a href="Humidity.html"><img class ="pic" src="../Resources/Fig2.png" alt="Latitude vs. Humidity"></a>
+                </div>
+                <div class="col col-3 col-md-6">
+                    <a href="Cloudiness.html"><img src="../Resources/Fig3.png" alt="Latitude vs. Cloudiness"></a>
+                </div>
+                <div class="col col-3 col-md-6">
+                    <a href="Wind-Speed.html"><img src="../Resources/Fig4.png" alt="Latitude vs. Wind Speed"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div>
+    <div class="row">
+        <div class="col col-12 divbtm">© Copyright Kasim Ahmad 2020</div>
+    </div>
+</div>
+</body>
+</html>

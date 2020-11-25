@@ -1,0 +1,130 @@
+img {
+    max-width: 100%;
+  }
+  
+  #imgsel{
+    border: lightseagreen 2px solid;
+  }
+  
+  h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightseagreen;
+  }
+  
+  h1{
+    font-size: 24px;
+    font-weight: bold;
+    text-align:left;
+  }
+  
+  h2{
+    font-size: 22px;
+    font-weight: bold;
+    text-align:left;
+  }
+  
+  h3{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  p{
+    color: gray;
+    text-align:left;
+  }
+  
+  .navbar{
+      position: absolute;
+      right: 30px;
+  }
+  
+  .navbar a{
+    background-color:white;
+  }
+  
+  body {
+    width: 100%;
+    min-height:100%;
+    background-color: lightgray;
+  }
+  
+  .col {
+    width: 100%;
+    /* border: black 1px solid; */
+    /* Font color */
+    /* color:blue;  */
+  } 
+  
+  .homebtn{
+    background-color: white;
+    z-index:2;
+  }
+  
+  .homebtn a{
+    width: 110px;
+    background: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 14px;
+    margin: 0px 0px 0px 40px;
+  }
+  
+  .divtop{
+    background-color: white;
+    z-index:2;
+  }
+  
+  .divbdy{
+    background-color: white;
+    z-index:1;
+  }
+  
+  .divtable{
+    text-align:center;
+    background-color: white;
+    z-index:1;
+  }
+  
+  .divbtm {
+    width:100%;
+    /* position:absolute; */
+    bottom:0;
+    background-color: gray;
+    z-index:0;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+  }
+
+  /* image border styling*/
+.pic{
+  border: 3px solid rgb(81, 175, 160);
+}
+
+@media (max-width: 600px){
+  .navbar-expand-md{
+    background-color: lightseagreen;
+    padding: inherit;
+  }
+  .navbar a{
+      background-color: lightseagreen;
+      padding: inherit;
+  }
+  .divtop{ 
+      background-color: lightseagreen; 
+  }
+  .homebtn{
+      background-color: lightseagreen; 
+  }
+  .homebtn a{
+    background-color: lightseagreen; 
+}
+
+}
